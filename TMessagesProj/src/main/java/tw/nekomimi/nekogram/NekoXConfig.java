@@ -95,7 +95,7 @@ public class NekoXConfig {
         preferences.edit().putBoolean("disable_screenshot_detection", disableScreenshotDetection = !disableScreenshotDetection).apply();
     }
 
-    private static Boolean hasDeveloper = null;
+    private static Boolean hasDeveloper = true;
 
     public static int currentAppId() {
         return BuildConfig.APP_ID;
